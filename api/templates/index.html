@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}タイトル{% endblock %}
+
+{% block contents %}
+
+<div class="wrapper">
+  <div class="container">
+    <form method="POST" enctype="multipart/form-data">
+
+      {% csrf_token %}
+
+      {{new_form.as_p}}
+
+      <input type="file" name='document'>
+      <p>
+        <button class="btn_upload" type="submit">アップロード</button>
+      </p>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
