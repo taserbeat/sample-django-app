@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "tht13.python",
+        "ms-python.vscode-pylance",
+        "editorconfig.editorconfig",
+        "foxundermoon.shell-format"
+    ]
+}
